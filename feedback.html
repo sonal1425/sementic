@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main-header {
+            height: 10vh;
+            background-color: beige;
+            text-align: center;
+            padding: 20px;
+            color: blue;
+
+        }
+
+        aside {
+            height: 80vh;
+            width: 20vw;
+            background-color: beige;
+            text-align: center;
+            float: left;
+        }
+
+        #sub-header {
+            height: 5vh;
+            background-color: burlywood;
+            text-align: center;
+            color: crimson;
+            font-size: 20px;
+        }
+
+        article {
+            height: 65vh;
+            background-color: coral;
+            text-align: center;
+            background-image:url("beauty.jpg") ;
+            background-size: 100% 100%;
+background-repeat: no-repeat;
+
+        }
+
+        #sub-footer {
+            height: 10vh;
+            background-color: burlywood;
+            text-align: center;
+            color: crimson;
+            font-size: 30px;
+        }
+
+        .main-footer {
+            height: 10vh;
+            background-color: beige;
+            text-align: center;
+            padding: 25px;
+            
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        li a{
+
+            display: block;
+            text-decoration: none;
+            padding: 20px 20px;
+            font-size:25px ;
+            margin-top: 35px;
+
+        }
+        li a:hover{
+          
+            color:blue;
+        }
+
+        .font{
+            font-family: 'Brush Script MT', cursive;
+}
+form{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.button {
+            background-color: chocolate;
+            font-weight: bold;
+            border-radius: 6px;
+            text-decoration: none;
+            color: aqua;
+            display: inline-block;
+            font-size: 30px;
+
+        }
+
+        
+    </style>
+
+
+</head>
+
+<body>
+    <header class="main-header">
+        <h1 class="font">PEACH BEAUTY SALON</h1>
+
+
+    </header>
+
+    <section>
+
+        <aside>
+            <ul>
+                <li><a href="sementic.html">Home</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </aside>
+
+        <header id="sub-header"> 
+            <h2 class="font" >We’re always here for you.</h2>
+
+        </header>
+        <article>
+            
+        
+            <form>
+                <h1>Feedback Form</h1><br>
+                <label for="fname">First Name: </label>
+                <input type="text" id="fname" name="fname"> <br><br>
+            
+                <label for="lname">Last Name: </label>
+                <input type="text" id="lname" name="lname"><br><br>
+            
+                <label for="Contact">Contact No: </label>
+                <input type="tel" name="contact" id="Contact"><br><br>
+            
+            
+                Gender : <input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female
+                <br><br>
+                <h3>Feedback</h3>
+                <label for="feedback"></label>
+                <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea><br><br>
+            
+                <input type="Submit" class="button" value="Submit">
+            
+            </form>
+
+            </article>
+        <footer id="sub-footer"> 
+            <h2 class="font"> "Because beauty isn't enough, there must be something more."</h2>
+        </footer>
+    </section>
+
+    <footer class="main-footer"> 
+        <h4><b>Contact Details:</b>Phone 1: 9876543265, Phone 2: 9764532223</h4>
+
+    </footer>
+
+
+</body>
+
+</html>
+
+
+
+
+
